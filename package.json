@@ -1,0 +1,28 @@
+{
+  "name": "aniket-portfolio",
+  "homepage": "https://pawar-aniket.github.io/pawar-aniket",
+  "private": true,
+  "version": "0.4.7",
+  "type": "module",
+  "description": "Portfolio site for Aniket Pawar.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
