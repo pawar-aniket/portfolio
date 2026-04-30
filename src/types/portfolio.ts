@@ -17,7 +17,6 @@ export type LogPart =
 
 export interface Tool {
   name: string;
-  tag: string;
   description: string;
   schema: SchemaToken[];
 }

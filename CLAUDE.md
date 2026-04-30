@@ -16,7 +16,7 @@ Portfolio site styled as an agentic UI / live agent session. React 18 + TypeScri
 
 ## Conventions
 
-- Lowercase typography is intentional throughout the UI ("aniket pawar", "// reach", "tools", `.btn` labels). Don't capitalize copy.
+- Lowercase typography is intentional throughout the UI ("// reach", "tools", `.btn` labels). Don't capitalize copy.
 - Skill/tool cards display JSON-schema fragments using a tokenized `SchemaToken` union; add new tools by appending to `portfolio.tools.items` and writing the schema as tokens, not as raw strings.
 - Run statuses are a closed `RunStatus` union (`completed | running | shipped`); each value has a matching `.run-status.<status> .pip` color rule in CSS.
 - Footer reach items render as a static `<span>` when `href` is omitted; only set `href` for items that should be clickable.

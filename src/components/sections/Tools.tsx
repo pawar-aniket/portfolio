@@ -29,7 +29,6 @@ function ToolCard({ tool }: { tool: Tool }) {
           <span className="arrow">▸</span>
           {tool.name}
         </div>
-        <div className="tool-tag">{tool.tag}</div>
       </div>
       <div className="tool-desc">{tool.description}</div>
       <div className="tool-schema">

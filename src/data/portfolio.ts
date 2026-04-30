@@ -5,7 +5,7 @@ export const portfolio: PortfolioData = {
 
   hero: {
     sessionId: '0xA17',
-    firstName: 'aniket pawar',
+    firstName: 'Aniket Pawar',
     suffix: '',
     tagline:
       'Tech Lead with 10+ years designing and shipping high-performance software across enterprise AIOps, fintech, and ecommerce. I architect end-to-end systems — APIs, microservices, cloud infrastructure, and AI-augmented surfaces — and lead the cross-functional teams that deliver them.',
@@ -79,7 +79,6 @@ export const portfolio: PortfolioData = {
     items: [
       {
         name: 'lang.execute',
-        tag: 'ts · js · python',
         description:
           'TypeScript and JavaScript across the full stack. Python for backend services, data pipelines, and AI tooling. Strict types as documentation; generics to keep service boundaries honest.',
         schema: [
@@ -102,7 +101,6 @@ export const portfolio: PortfolioData = {
       },
       {
         name: 'backend.serve',
-        tag: 'node · microservices',
         description:
           'Node and Express APIs, Python backends, microservices with event-driven communication over Kafka. Bot backends, webhook integrations, and data pipelines end-to-end. Databases: MongoDB, MySQL, PostgreSQL, OpenSearch.',
         schema: [
@@ -131,7 +129,6 @@ export const portfolio: PortfolioData = {
       },
       {
         name: 'frontend.render',
-        tag: 'react · vue · next',
         description:
           'React with Redux, hooks, and Suspense. Next.js for SSR surfaces. Vue + Vuex + Vuetify for fintech tooling. D3.js for data visualisation. Jest for unit + automation testing.',
         schema: [
@@ -158,7 +155,6 @@ export const portfolio: PortfolioData = {
       },
       {
         name: 'ai.orchestrate',
-        tag: 'agents · llm · spec-driven',
         description:
           'LangGraph and LangChain for agentic workflows. Claude and OpenAI APIs in production. Prompt engineering, agentic patterns, and spec-driven development to accelerate engineering velocity and automate complex workflows.',
         schema: [
@@ -183,7 +179,6 @@ export const portfolio: PortfolioData = {
       },
       {
         name: 'cloud.deploy',
-        tag: 'aws · k8s · devops',
         description:
           'AWS (EKS, EC2, S3, CloudFront), Docker, Kubernetes with Helm and KEDA, Linux. Kafka for event streaming. CI/CD pipelines, SonarQube checks, and zero-downtime reindexing strategies on OpenSearch.',
         schema: [
@@ -208,7 +203,6 @@ export const portfolio: PortfolioData = {
       },
       {
         name: 'team.lead',
-        tag: 'leadership',
         description:
           '10+ yrs leading cross-functional teams. Architecture, code reviews, mentoring, Agile delivery. Translating product specs into shippable software and complex technical concepts into actionable strategies aligned with business goals.',
         schema: [

@@ -260,7 +260,13 @@ h1.name {
   align-items: flex-start;
   gap: 2px;
 }
-h1.name .name-main { display: block; }
+h1.name .name-main {
+  display: block;
+  font-family: 'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace;
+  font-weight: 500;
+  font-size: .82em;
+  letter-spacing: -.04em;
+}
 h1.name .name-suffix {
   font-size: .42em;
   color: var(--accent);
@@ -536,13 +542,6 @@ section.block { padding: 56px 0 28px; position: relative; }
 .tool-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
 .tool-name { color: var(--text); font-size: 13px; font-weight: 500; }
 .tool-name .arrow { color: var(--accent); margin-right: 8px; }
-.tool-tag {
-  font-size: 10px;
-  color: var(--text-mut);
-  border: 1px solid var(--border-2);
-  padding: 2px 6px;
-  border-radius: 3px;
-}
 .tool-desc {
   color: var(--text-dim);
   font-size: 12.5px;
