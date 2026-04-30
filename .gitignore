@@ -1,0 +1,15 @@
+node_modules
+dist
+dist-ssr
+*.local
+.vite
+.DS_Store
+*.log
+*.env
+.vscode
+.claude
+
+# typescript / vite generated artifacts
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
